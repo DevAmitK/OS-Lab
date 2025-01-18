@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Read the values of a and b
+echo "Enter the first number (a): "
+read a
+echo "Enter the second number (b): "
+read b
+
+# Swap the values using a temporary variable
+temp=$a
+a=$b
+b=$temp
+
+# Print the swapped values
+echo "After swapping:"
+echo "a = $a"
+echo "b = $b"
