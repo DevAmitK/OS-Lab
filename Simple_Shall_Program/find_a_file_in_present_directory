@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Read the filename to search
+echo "Enter the filename to search: "
+read filename
+
+# Check if the file exists in the current directory
+if [ -e "$filename" ]; then
+    echo "File '$filename' found in the current directory."
+else
+    echo "File '$filename' not found in the current directory."
+fi
