@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Read a string from the user
+echo "Enter a string: "
+read input_string
+
+# Calculate word count and line count
+word_count=$(echo "$input_string" | wc -w)
+line_count=$(echo "$input_string" | wc -l)
+
+# Print the results
+echo "Word count: $word_count"
+echo "Line count: $line_count"
